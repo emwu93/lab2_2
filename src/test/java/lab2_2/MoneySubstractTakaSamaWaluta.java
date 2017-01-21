@@ -16,6 +16,6 @@ public class MoneySubstractTakaSamaWaluta {
 	Money money2=new Money(2.0, "USD");
 	Money oczekiwana_wart=new Money(3.0,"USD");
 	
-	assertThat(oczekiwana_wart,is(equalTo(money1.)))
+	assertThat(oczekiwana_wart,is(equalTo(money1.subtract(money2))));
 	}
 }
