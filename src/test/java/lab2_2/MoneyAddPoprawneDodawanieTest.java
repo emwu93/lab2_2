@@ -21,7 +21,6 @@ public class MoneyAddPoprawneDodawanieTest {
 		Money suma=money1.add(money2);
 		
 		assertThat(suma,is(equalTo(oczekiwana_wart)));
-		
 	}
 	
 }
