@@ -15,8 +15,7 @@ public class MoneyGreaterThanNegatywnyWynik {
 		Money money2=new Money(3.0,"USD");
 		boolean tmp=false;
 		
-		assertThat(tmp,is(equalTo(money1.greaterThan(money2))));	
-		
+		assertThat(tmp,is(equalTo(money1.greaterThan(money2))));
 		
 	}
 
