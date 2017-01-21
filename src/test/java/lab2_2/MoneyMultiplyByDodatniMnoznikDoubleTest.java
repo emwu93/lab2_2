@@ -7,16 +7,16 @@ import pl.com.bottega.ecommerce.sharedkernel.Money;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertThat;
 
-public class MoneyLessThanPozytywnyWynik {
+public class MoneyMultiplyByDodatniMnoznikDoubleTest {
 	
 	@Test
 	public void test(){
 		
 		Money money1=new Money(2.0,"USD");
-		Money money2=new Money(3.0,"USD");
-		boolean tmp=true;	
+		Money oczekiwana_wart=new Money(4.0,"USD");
+		double mnoznik=2;
 		
-		assertThat(tmp,is(equalTo(money1.lessThan(money2))));
+		assertThat(oczekiwana_wart,is(equalTo(money1.multiplyBy(mnoznik))));
 		
 	}
 

@@ -7,7 +7,7 @@ import org.junit.Test;
 import pl.com.bottega.ecommerce.sharedkernel.Money;
 
 
-public class MoneyLessOrEqualsRowneWartosci {
+public class MoneyLessOrEqualsRowneWartosciTest {
 	
 	@Test
 	public void test(){

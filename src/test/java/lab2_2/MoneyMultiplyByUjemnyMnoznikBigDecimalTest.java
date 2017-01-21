@@ -6,7 +6,7 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertThat;
 import pl.com.bottega.ecommerce.sharedkernel.Money;
 
-public class MoneyMultiplyByUjemnyMnoznikBigDecimal {
+public class MoneyMultiplyByUjemnyMnoznikBigDecimalTest {
 
 	@Test
 	public void test(){

@@ -7,7 +7,7 @@ import static org.junit.Assert.assertThat;
 
 import pl.com.bottega.ecommerce.sharedkernel.Money;
 
-public class MoneySubstractTakaSamaWalutaWynikUjemny {
+public class MoneySubstractTakaSamaWalutaWynikUjemnyTest {
 	
 	@Test
 	public void test(){

@@ -7,7 +7,7 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertThat;
 import java.math.*;
 
-public class MoneyMultiplyByDodatniMnoznikBigDecimal {
+public class MoneyMultiplyByDodatniMnoznikBigDecimalTest {
 	
 	@Test
 	public void test(){

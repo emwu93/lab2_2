@@ -5,7 +5,7 @@ import org.junit.Test;
 import pl.com.bottega.ecommerce.sharedkernel.Money;
 
 
-public class MoneySubstractRoznaWaluta {
+public class MoneySubstractRoznaWalutaTest {
 
 	@Test(expected=IllegalArgumentException.class)
 	public void test(){

@@ -7,7 +7,7 @@ import pl.com.bottega.ecommerce.sharedkernel.Money;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertThat;
 
-public class MoneyGreaterThanNegatywnyWynik {
+public class MoneyGreaterThanNegatywnyWynikTest {
 	
 	@Test
 	public void test(){

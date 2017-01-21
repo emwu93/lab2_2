@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import pl.com.bottega.ecommerce.sharedkernel.Money;
 
-public class MoneyMultiplyByUjemnyMnoznikDouble {
+public class MoneyMultiplyByUjemnyMnoznikDoubleTest {
 	
 	@Test
 	public void test(){
