@@ -16,6 +16,11 @@ public class MoneyAddTest {
 		
 		Money money1=new Money(3.0);
 		Money money2=new Money(1.0);
+		Money oczekiwana_wart=new Money(5.0);
+		
+		Money suma=money1.add(money2);
+		
+		assertThat(suma,is(equalTo(oczekiwana_wart)));
 		
 	}
 	
