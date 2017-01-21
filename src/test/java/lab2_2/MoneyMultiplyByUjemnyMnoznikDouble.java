@@ -14,6 +14,9 @@ public class MoneyMultiplyByUjemnyMnoznikDouble {
 		
 		Money money1=new Money(4.0,"USD");
 		double mnoznik=-2;
+		Money oczekiwana_wart=new Money(-8.0,"USD");
+		
+		assertThat(oczekiwana_wart,is(equalTo(money1.multiplyBy(mnoznik))));
 		
 	}
 
