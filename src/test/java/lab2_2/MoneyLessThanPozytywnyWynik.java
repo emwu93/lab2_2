@@ -17,7 +17,7 @@ public class MoneyLessThanPozytywnyWynik {
 		boolean tmp=true;	
 		
 		assertThat(tmp,is(equalTo(money1.lessThan(money2))));
-	
+		
 	}
 
 }
