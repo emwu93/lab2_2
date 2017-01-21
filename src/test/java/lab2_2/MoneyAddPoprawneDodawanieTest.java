@@ -8,7 +8,7 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertThat;
 
 
-public class MoneyAddTest {
+public class MoneyAddPoprawneDodawanieTest {
 
 	@Test
 	public void test(){
