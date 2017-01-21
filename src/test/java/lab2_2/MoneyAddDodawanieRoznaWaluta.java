@@ -17,6 +17,7 @@ public class MoneyAddDodawanieRoznaWaluta {
 		Money money1=new Money(3.0,"USD");
 		Money money2=new Money(1.0, "EUR");
 		
+		money1.add(money2);	
 		
 	}
 	
