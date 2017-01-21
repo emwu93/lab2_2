@@ -10,10 +10,13 @@ import static org.junit.Assert.assertThat;
 
 public class MoneySubstractRoznaWaluta {
 
-	@Test
+	@Test(expected=IllegalArgumentException.class)
 	public void test(){
 	Money money1=new Money(5.0,"USD");
 	Money money2=new Money(3.0,"USD");
+	
+	
+	
 	
 	}
 	
